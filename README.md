@@ -102,7 +102,7 @@ Python 3.10+ | SQL  | Jupyter Notebook | Pandas
 
 * Este proyecto fue desarrollado como parte de una actividad académica.
   
-#### 🔗 [Repositorio Análisis de base de datis de una plataforma de libros](https://github.com/sandrarors/Analisis-de-base-de-datos-de-una-plataforma-de-libros)
+#### 🔗 [Repositorio Análisis de base de datos de una plataforma de libros](https://github.com/sandrarors/Analisis-de-base-de-datos-de-una-plataforma-de-libros)
 
 ![Gráfico de rating por autor](https://github.com/sandrarors/Sandra_Romero_Portafolio/blob/main/Proyecto_App_libros_SQL.png)
 

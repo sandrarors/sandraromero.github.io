@@ -56,7 +56,7 @@ Seaborn
 
 * Este proyecto fue desarrollado como parte de una actividad académica.
   
-#### 🔗 [Repositorio Análisis de Videojuegos](https://github.com/sandrarors/Analisis-de-datos-de-ventas-de-videojuegos) 
+#### 🔗 [Repositorio Análisis de ventas de Videojuegos](https://github.com/sandrarors/Analisis-de-datos-de-ventas-de-videojuegos) 
 
 ![Gráfico de ventas de videojuegos](https://github.com/sandrarors/Sandra_Romero_Portafolio/blob/main/Proyecto_Ventas_de_videojuegos.png)
 
@@ -83,7 +83,7 @@ Pruebas A/B
 
 * Este proyecto fue desarrollado como parte de una actividad académica.
 
-#### 🔗 [Repositorio Pruebas A/B](https://github.com/sandrarors/Analisis-de-prueba-AB-para-tienda-en-linea) 
+#### 🔗 [Repositorio Anólisis de prueba A/B para tienda en línea](https://github.com/sandrarors/Analisis-de-prueba-AB-para-tienda-en-linea) 
 
 ![Gráfico de pruebas AB](https://github.com/sandrarors/Sandra_Romero_Portafolio/blob/main/Proyecto_de_pruebas_AB.png)
 
@@ -108,7 +108,7 @@ Pandas
 
 * Este proyecto fue desarrollado como parte de una actividad académica.
   
-#### 🔗 [Repositorio App libros SQL](https://github.com/sandrarors/Analisis-de-base-de-datos-de-una-plataforma-de-libros)
+#### 🔗 [Repositorio Anólisis de base de datis de una plataforma de libros](https://github.com/sandrarors/Analisis-de-base-de-datos-de-una-plataforma-de-libros)
 
 ![Gráfico de rating por autor](https://github.com/sandrarors/Sandra_Romero_Portafolio/blob/main/Proyecto_App_libros_SQL.png)
 

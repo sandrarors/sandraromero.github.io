@@ -39,6 +39,7 @@ Aquí encontrarás una colección de trabajos que forman parte de un programa ed
 ### 🎮 Análisis de datos de Ventas de Videojuegos  
 
 📌 Descripción
+
 Proyecto enfocado en analizar un conjunto de datos históricos sobre ventas de videojuegos, reseñas de usuarios y críticos, plataformas, géneros y clasificaciones ESRB, con el objetivo de identificar patrones de éxito y apoyar la planificación de campañas publicitarias.
 
 - Realicé limpieza y transformación de datos (manejo de valores ausentes, conversión de tipos, normalización de nombres de columnas).
@@ -48,6 +49,7 @@ Proyecto enfocado en analizar un conjunto de datos históricos sobre ventas de v
 - Apliqué pruebas de hipótesis (T-test) para comparar calificaciones promedio entre plataformas y géneros.
 
 🛠 Requisitos
+
 Python 3.10+
 Jupyter Notebook
 Pandas
@@ -65,6 +67,7 @@ Seaborn
 ### 🆎 Análisis de prueba A/B para tienda en línea  
 
 📌 **Descripción:**  
+
 Como parte de un ejercicio analítico, retomé el análisis de una prueba A/B iniciada por un equipo anterior en una tienda en línea internacional. El objetivo era evaluar el impacto de un nuevo sistema de recomendaciones en el comportamiento de compra de nuevos usuarios de la región de la UE.
 
 - Diseñé y ejecuté el análisis de una prueba A/B (recommender_system_test) orientada a evaluar la efectividad de un nuevo sistema de recomendaciones en una tienda en línea con usuarios de la UE.
@@ -74,6 +77,7 @@ Como parte de un ejercicio analítico, retomé el análisis de una prueba A/B in
 - Concluí con insights sobre la validez de la prueba, distribuciones de eventos y recomendaciones para futuras pruebas A/B.
 
 🛠 Requisitos
+
 Python 3.10+
 Jupyter Notebook
 Pandas
@@ -92,6 +96,7 @@ Pruebas A/B
 ### 📚 Análisis de base de datos de una plataforma de libros 
 
 📌 Descripción
+
 Este proyecto analiza una base de datos relacional de una plataforma digital de libros para apoyar el desarrollo de un nuevo producto dirigido a lectores durante la pandemia de COVID-19, cuando el interés por la lectura aumentó considerablemente. La base de datos incluye información sobre libros, autores, editoriales, calificaciones y reseñas de usuarios.
 
 - Realicé consultas para identificar tendencias editoriales y de lectura posterior al año 2000.
@@ -101,6 +106,7 @@ Este proyecto analiza una base de datos relacional de una plataforma digital de 
 - Presenté conclusiones basadas en datos para apoyar decisiones estratégicas del producto.
 
 🛠 Requisitos
+
 Python 3.10+
 SQL
 Jupyter Notebook
@@ -117,11 +123,13 @@ Pandas
 ### 📊 Tendencias de Videos en YouTube - Dashboard Tableau  
 
 📌 Descripción
+
 Este proyecto está enfocado en identificar tendencias en videos de YouTube para determinar qué contenido puede ser relevante para estrategias de mercadotecnia. Hasta ahora, el análisis ha sido manual y repetitivo, por lo que se ha tomado la decisión automatizarlo mediante un dashboard interactivo en Tableau.
 
 El objetivo principal del dashboard es proporcionar a los gerentes de planificación de videos publicitarios un análisis claro y actualizado del historial de tendencias en YouTube. Esto les permitirá tomar decisiones basadas en datos sobre qué tipos de contenido pueden ser más efectivos en distintas regiones.
 
 🛠 Requisitos
+
 Tableau
 
 *Este proyecto fue desarrollado como parte de una actividad académica.
@@ -134,4 +142,5 @@ Tableau
 
 ---
 
-"Gracias por visitar mi portafolio. ¡Espero que estos proyectos sean de interés! Si tienes preguntas o sugerencias, estaré encantada de escucharlas. 🚀"
+Gracias por visitar mi portafolio. Espero que los proyectos compartidos te resulten útiles o inspiradores.
+Si algún proyecto despierta tu interés o tienes sugerencias, estaré feliz de conectar y conversar. 🚀

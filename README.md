@@ -48,13 +48,9 @@ Proyecto enfocado en analizar un conjunto de datos históricos sobre ventas de v
 - Elaboré perfiles de usuarios por región y analicé diferencias en preferencias de plataforma, género y clasificación ESRB.
 - Apliqué pruebas de hipótesis (T-test) para comparar calificaciones promedio entre plataformas y géneros.
 
-🛠 Requisitos
+🛠 Requisitos:
 
-Python 3.10+
-Jupyter Notebook
-Pandas
-Matplotlib
-Seaborn
+Python 3.10+ | Jupyter Notebook | Pandas | Matplotlib | Seaborn
 
 * Este proyecto fue desarrollado como parte de una actividad académica.
   
@@ -76,14 +72,9 @@ Como parte de un ejercicio analítico, retomé el análisis de una prueba A/B in
 - Evalué el impacto del nuevo sistema en métricas clave mediante pruebas estadísticas (prueba Z), verificando si existían mejoras significativas (≥10%) en cada etapa del embudo.
 - Concluí con insights sobre la validez de la prueba, distribuciones de eventos y recomendaciones para futuras pruebas A/B.
 
-🛠 Requisitos
+🛠 Requisitos:
 
-Python 3.10+
-Jupyter Notebook
-Pandas
-Matplotlib
-Estadística
-Pruebas A/B
+Python 3.10+ | Jupyter Notebook | Pandas | Matplotlib | Estadística | Pruebas A/B
 
 * Este proyecto fue desarrollado como parte de una actividad académica.
 
@@ -105,12 +96,9 @@ Este proyecto analiza una base de datos relacional de una plataforma digital de 
 - Segmenté usuarios activos para entender su comportamiento mediante consultas agregadas.
 - Presenté conclusiones basadas en datos para apoyar decisiones estratégicas del producto.
 
-🛠 Requisitos
+🛠 Requisitos:
 
-Python 3.10+
-SQL
-Jupyter Notebook
-Pandas
+Python 3.10+ | SQL  | Jupyter Notebook | Pandas
 
 * Este proyecto fue desarrollado como parte de una actividad académica.
   
@@ -128,7 +116,7 @@ Este proyecto está enfocado en identificar tendencias en videos de YouTube para
 
 El objetivo principal del dashboard es proporcionar a los gerentes de planificación de videos publicitarios un análisis claro y actualizado del historial de tendencias en YouTube. Esto les permitirá tomar decisiones basadas en datos sobre qué tipos de contenido pueden ser más efectivos en distintas regiones.
 
-🛠 Requisitos
+🛠 Requisitos:
 
 Tableau
 

@@ -1,283 +1,201 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sandra Romero | Portafolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-
-    * {
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
     body {
-
-      <!-- Botón del menú móvil -->
-<div class="menu-toggle" onclick="toggleMenu()">
-  ☰
-</div>
-
-<!-- Menú lateral -->
-<nav class="sidebar" id="sidebar">
-  <h2>Portafolio</h2>
-  <a href="#sobre-mi">Sobre mí</a>
-
-  <div class="submenu">
-    <a href="#proyectos" class="main-link" onclick="toggleSubmenu()">Proyectos ▾</a>
-    <div class="submenu-links" id="submenu-links">
-      <a href="#proyecto1">App de Libros (SQL)</a>
-      <a href="#proyecto2">Análisis de Juegos</a>
-      <a href="#proyecto3">Dashboard</a>
-      <a href="#proyecto4">Análisis de Usuarios</a>
-    </div>
-  </div>
-
-  <a href="#contacto">Contacto</a>
-</nav>
-
-      
-      margin: 0;
       font-family: 'Poppins', sans-serif;
-      display: flex;
-      background: #f5f8fa;
-      color: #333;
-    }
-
-    /* Sidebar */
-    .sidebar {
-      width: 240px;
-      background: linear-gradient(180deg, #24292e 0%, #343a40 100%);
-      color: white;
-      padding: 2rem 1rem;
-      position: fixed;
-      height: 100vh;
-    }
-
-    .sidebar h2 {
-      font-size: 1.5rem;
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-
-    .sidebar a {
-      display: block;
-      color: white;
-      text-decoration: none;
-      padding: 0.8rem 1rem;
-      margin-bottom: 0.5rem;
-      border-radius: 8px;
-      transition: background 0.3s ease;
-    }
-
-    .sidebar a:hover {
-      background-color: #4a90e2;
-    }
-
-    /* Main content */
-    .main {
-      margin-left: 240px;
-      padding: 2rem;
-      flex-grow: 1;
-    }
-
-    section {
-      margin-bottom: 4rem;
-    }
-
-    header img {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid white;
-      display: block;
-      margin: 0 auto 1rem;
-    }
-
-    header h1 {
-      text-align: center;
       margin: 0;
-      font-size: 2.3rem;
+      background-color: #fefefe;
+      color: #333;
+      display: flex;
     }
 
-    header p {
-      text-align: center;
-      font-size: 1.1rem;
-      color: #666;
-    }
-
-    .project-card {
-      background: white;
-      border-radius: 10px;
+    aside {
+      width: 20%;
+      background-color: #f4f4f4;
       padding: 1rem;
-      margin-bottom: 2rem;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-      transition: transform 0.3s;
+      height: 100vh;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      overflow-y: auto;
     }
 
-    .project-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .project-card img {
-      width: 100%;
-      border-radius: 10px;
-      object-fit: cover;
+    aside h2 {
+      font-size: 1.2rem;
       margin-bottom: 1rem;
     }
 
-    .project-card h3 {
-      margin: 0 0 0.5rem;
+    aside nav ul {
+      list-style: none;
+      padding: 0;
     }
 
-    .project-card p {
-      margin: 0.5rem 0;
-      line-height: 1.6;
-      white-space: pre-line;
+    aside nav ul li {
+      margin-bottom: 1rem;
+    }
+
+    aside nav ul li a {
+      color: #24292e;
+      text-decoration: none;
+    }
+
+    aside nav ul li ul {
+      margin-top: 0.5rem;
+      padding-left: 1rem;
+    }
+
+    aside nav ul li ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    main {
+      margin-left: 20%;
+      width: 80%;
+    }
+
+    header {
+      background-color: #24292e;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .projects a {
+      display: block;
+      margin-bottom: 1rem;
+      color: #0366d6;
+      text-decoration: none;
+    }
+
+    .projects a:hover {
+      text-decoration: underline;
+    }
+
+    .socials a {
+      margin-right: 15px;
+      font-size: 1.5rem;
+      color: #24292e;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: #0366d6;
     }
 
     footer {
       text-align: center;
-      padding: 2rem;
-      color: #777;
+      padding: 1rem;
+      background-color: #f0f0f0;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <!-- Menú lateral -->
-  <nav class="sidebar">
-    <h2>Portafolio</h2>
-    <a href="#sobre-mi">Sobre mí</a>
-    <a href="#proyectos">Proyectos</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-
-  <!-- Contenido principal -->
-  <div class="main">
-    <header id="sobre-mi">
-      <img src="Profile.png" alt="Foto de perfil">
+  <aside>
+    <h2>Menú</h2>
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li>
+          <a href="#proyectos">Proyectos</a>
+          <ul>
+            <li><a href="#proyecto1">Ventas de videojuegos</a></li>
+            <li><a href="#proyecto2">Prueba A/B tienda online</a></li>
+            <li><a href="#proyecto3">Base de datos libros</a></li>
+            <li><a href="#proyecto4">Dashboard YouTube</a></li>
+          </ul>
+        </li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main>
+    <header>
+      <img src="Profile.png" alt="Foto de perfil" style="width: 150px; border-radius: 50%;">
       <h1>Sandra Romero</h1>
-      <p>Data Analyst | Jr Project Manager | Social Media Manager</p>
+      <p>Data Analyst | Jr. Project Manager | Social Media Manager</p>
     </header>
 
-
-  <section class="section">
-    <h2>Sobre mí</h2>
-    <p>¡Hola! 👋 Bievenido a mi portafolio de proyectos 🗂️</p>
-      
+    <section id="sobre-mi" class="section">
+      <h2>Sobre mí</h2>
+      <p>¡Hola! 👋 Bievenido a mi portafolio de proyectos 🗂️</p>
       <p>🚀 Soy Analista de Datos con experiencia en Marketing y Gestión de Proyectos 📊📈</p>
       <p>Especializada en la interpretación y visualización de datos para la toma de decisiones estratégica con más de 7 años de experiencia liderando equipos 👥 y desarrollando enfoques analíticos en sectores como la construcción 🏗️, la hospitalidad 🏨 y el calzado 👟.</p>
-    <p>Habilidad para transformar datos en insights accionables, optimizar procesos ⚙️ y mejorar la eficiencia operativa. Experiencia en análisis de tendencias de mercado 📉, automatización de reportes 🤖 y generación de dashboards interactivos 📊.
-    </p>
-  </section>
+      <p>Habilidad para transformar datos en insights accionables, optimizar procesos ⚙️ y mejorar la eficiencia operativa. Experiencia en análisis de tendencias de mercado 📉, automatización de reportes 🤖 y generación de dashboards interactivos 📊.</p>
+    </section>
 
+    <section id="proyectos" class="section">
+      <h2>Proyectos</h2>
+      <div class="projects">
 
-  <section class="section">
-    <h2>Proyectos</h2>
-    <div class="projects">
-
-      <!-- Proyecto 1 -->
-      <div style="margin-bottom: 30px;">
+        <div id="proyecto1" style="margin-bottom: 30px;">
           <h3>Análisis de datos de ventas de videojuegos 🎮</h3>
           <p>📌 Descripción </p>
-
-            <p>Proyecto enfocado en analizar un conjunto de datos históricos sobre ventas de videojuegos, reseñas de usuarios y críticos, plataformas, géneros y clasificaciones ESRB, con el objetivo de identificar patrones de éxito y apoyar la planificación de campañas publicitarias.</p>
-            <p>- Realicé limpieza y transformación de datos incluyendo el manejo de valores ausentes, conversión de tipos y normalización de nombres de columnas.</p>
-            <p>- Calculé ventas totales por juego y generé visualizaciones para estudiar tendencias por plataforma, año y género.</p>
-            <p>- Evalué la correlación entre reseñas de usuarios y críticos con las ventas, identificando factores clave para el éxito comercial.</p>
-            <p>- Elaboré perfiles de usuarios por región y analicé diferencias en preferencias de plataforma, género y clasificación ESRB.</p> 
-            <p>- Apliqué pruebas de hipótesis (T-test) para comparar calificaciones promedio entre plataformas y géneros.</p>
-            
-            <p>🛠 Requisitos:</p>
-            <p>Python 3.10+ | Jupyter Notebook | Pandas | Matplotlib | Seaborn</p>
-
-<p>* Este proyecto fue desarrollado como parte de una actividad académica.</p>
+          <p>Proyecto enfocado en analizar un conjunto de datos históricos sobre ventas de videojuegos...</p>
           <a href="https://github.com/sandrarors/Analisis-de-datos-de-ventas-de-videojuegos" target="_blank">Ver en GitHub</a>
-        <img src="Proyecto_Ventas_de_videojuegos.png" alt="Análisis de datos de ventas de videojuegos" style="width: 75%; max-width: 600px;">
+          <img src="Proyecto_Ventas_de_videojuegos.png" alt="Análisis de datos de ventas de videojuegos" style="width: 75%; max-width: 600px;">
         </div>
 
-      <!-- Proyecto 2 -->
-      <div style="margin-bottom: 30px;">
+        <div id="proyecto2" style="margin-bottom: 30px;">
           <h3>Análisis de prueba A/B para tienda en línea 🆎</h3>
           <p>📌 Descripción </p>
-
-            <p>Como parte de un ejercicio analítico, retomé el análisis de una prueba A/B iniciada por un equipo anterior en una tienda en línea internacional. El objetivo era evaluar el impacto de un nuevo sistema de recomendaciones en el comportamiento de compra de nuevos usuarios de la región de la UE.</p>
-            <p>- Diseñé y ejecuté el análisis de una prueba A/B orientada a evaluar la efectividad de un nuevo sistema de recomendaciones en una tienda en línea con usuarios de la UE.</p>
-            <p>- Procesé y limpié múltiples datasets que incluían eventos de usuario, información de participantes y campañas de marketing, identificando valores nulos, duplicados y usuarios en ambos grupos de prueba.</p>
-            <p>- Realicé análisis exploratorio de datos (EDA), estudiando conversiones a través del embudo: visualización de productos, añadir al carrito y compra.</p>
-            <p>- Evalué el impacto del nuevo sistema en métricas clave mediante pruebas estadísticas (prueba Z), verificando si existían mejoras significativas (≥10%) en cada etapa del embudo.</p> 
-            <p>- Concluí con insights sobre la validez de la prueba, distribuciones de eventos y recomendaciones para futuras pruebas A/B.</p>
-            
-            <p>🛠 Requisitos:</p>
-            <p>Python 3.10+ | Jupyter Notebook | Pandas | Matplotlib | Estadística | Pruebas A/B</p>
-
-<p>* Este proyecto fue desarrollado como parte de una actividad académica.</p>
+          <p>Como parte de un ejercicio analítico, retomé el análisis de una prueba A/B...</p>
           <a href="https://github.com/sandrarors/Analisis-de-prueba-AB-para-tienda-en-linea" target="_blank">Ver en GitHub</a>
-        <img src="Proyecto_de_pruebas_AB.png" alt="Análisis de prueba A/B para tienda en línea" style="width: 75%; max-width: 600px;">
+          <img src="Proyecto_de_pruebas_AB.png" alt="Análisis de prueba A/B para tienda en línea" style="width: 75%; max-width: 600px;">
         </div>
 
-
-
-
-      <!-- Proyecto 3 -->
-      <div style="margin-bottom: 30px;">
+        <div id="proyecto3" style="margin-bottom: 30px;">
           <h3>Análisis de base de datos de una plataforma de libros 📚</h3>
           <p>📌 Descripción </p>
-
-            <p>Este proyecto analiza una base de datos relacional de una plataforma digital de libros para apoyar el desarrollo de un nuevo producto dirigido a lectores durante la pandemia de COVID-19, cuando el interés por la lectura aumentó considerablemente. La base de datos incluye información sobre libros, autores, editoriales, calificaciones y reseñas de usuarios.</p>
-            <p>- Realicé consultas para identificar tendencias editoriales y de lectura posterior al año 2000.</p>
-            <p>- Calculé métricas como número de reseñas y promedio de calificaciones por libro.</p>
-            <p>- Identifiqué editoriales y autores destacados según volumen de publicaciones y calificaciones.</p>
-            <p>- Segmenté usuarios activos para entender su comportamiento mediante consultas agregadas.</p> 
-            <p>- Presenté conclusiones basadas en datos para apoyar decisiones estratégicas del producto.</p>
-            
-            <p>🛠 Requisitos:</p>
-            <p>Python 3.10+ | SQL | Jupyter Notebook | Pandas</p>
-
-<p>* Este proyecto fue desarrollado como parte de una actividad académica.</p>
+          <p>Este proyecto analiza una base de datos relacional de una plataforma digital de libros...</p>
           <a href="https://github.com/sandrarors/Analisis-de-base-de-datos-de-una-plataforma-de-libros" target="_blank">Ver en GitHub</a>
-        <img src="Proyecto_App_libros_SQL.png" alt="Análisis de base de datos de una plataforma de libros" style="width: 75%; max-width: 600px;">
+          <img src="Proyecto_App_libros_SQL.png" alt="Análisis de base de datos de una plataforma de libros" style="width: 75%; max-width: 600px;">
         </div>
 
-
-    
-          <!-- Proyecto 4 -->
-      <div style="margin-bottom: 30px;">
+        <div id="proyecto4" style="margin-bottom: 30px;">
           <h3>Tendencias de Videos en YouTube - Dashboard Tableau 📊 </h3>
           <p>📌 Descripción </p>
-
-            <p>Este proyecto está enfocado en identificar tendencias en videos de YouTube para determinar qué contenido puede ser relevante para estrategias de mercadotecnia. Hasta ahora, el análisis ha sido manual y repetitivo, por lo que se ha tomado la decisión automatizarlo mediante un dashboard interactivo en Tableau.</p>
-            <p>El objetivo principal del dashboard es proporcionar a los gerentes de planificación de videos publicitarios un análisis claro y actualizado del historial de tendencias en YouTube. Esto les permitirá tomar decisiones basadas en datos sobre qué tipos de contenido pueden ser más efectivos en distintas regiones.</p>
-            
-            <p>🛠 Requisitos:</p>
-            <p>Tableau</p>
-
-<p>* Este proyecto fue desarrollado como parte de una actividad académica.</p>
+          <p>Este proyecto está enfocado en identificar tendencias en videos de YouTube...</p>
           <a href="https://github.com/sandrarors/Tendencias_videos_YouTube_dashboard_Tableau" target="_blank">Ver en GitHub</a>
-        <img src="Proyecto_Dashboard_Tableau.png" alt="Tendencias de Videos en YouTube - Dashboard Tableau" style="width: 75%; max-width: 600px;">
+          <img src="Proyecto_Dashboard_Tableau.png" alt="Tendencias de Videos en YouTube - Dashboard Tableau" style="width: 75%; max-width: 600px;">
         </div>
       </div>
-  </section>
+    </section>
 
-
-    <section id="contacto">
+    <section id="contacto" class="section">
       <h2>Contacto</h2>
       <p>Puedes encontrarme en:</p>
       <p>
         <a href="https://linkedin.com/in/sandra-elisa-romero-reyes" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
-        <a href="se.romeroreyes@email.com"" target="_blank"><i class="fab fa-envelope"></i> Gmail</a> |
+        <a href="mailto:se.romeroreyes@email.com" target="_blank"><i class="fab fa-envelope"></i> Gmail</a> |
         <a href="https://github.com/sandrarors" target="_blank"><i class="fab fa-github"></i> GitHub</a>
       </p>
     </section>
 
     <footer>
-    © 2025 Sandra Romero. Todos los derechos reservados.
+      © 2025 Sandra Romero. Todos los derechos reservados.
     </footer>
-  </div>
+  </main>
 </body>
 </html>
-
-

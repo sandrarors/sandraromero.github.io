@@ -14,6 +14,31 @@
     }
 
     body {
+
+      <!-- Botón del menú móvil -->
+<div class="menu-toggle" onclick="toggleMenu()">
+  ☰
+</div>
+
+<!-- Menú lateral -->
+<nav class="sidebar" id="sidebar">
+  <h2>Portafolio</h2>
+  <a href="#sobre-mi">Sobre mí</a>
+
+  <div class="submenu">
+    <a href="#proyectos" class="main-link" onclick="toggleSubmenu()">Proyectos ▾</a>
+    <div class="submenu-links" id="submenu-links">
+      <a href="#proyecto1">App de Libros (SQL)</a>
+      <a href="#proyecto2">Análisis de Juegos</a>
+      <a href="#proyecto3">Dashboard</a>
+      <a href="#proyecto4">Análisis de Usuarios</a>
+    </div>
+  </div>
+
+  <a href="#contacto">Contacto</a>
+</nav>
+
+      
       margin: 0;
       font-family: 'Poppins', sans-serif;
       display: flex;

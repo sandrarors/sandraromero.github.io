@@ -1,14 +1,30 @@
-##  👋 Hola, soy Sandra Romero
+##  👋 ¡Hola!, soy Sandra Romero
 
-¡Bienvenido a mi portafolio de proyectos de análisis de datos!
+Bienvenido a mi portafolio de proyectos 🗂️
 
-Soy Analista de Datos con experiencia en Marketing y Gestión de Proyectos. Especializada en la interpretación y visualización de datos para la toma de decisiones estratégicas. Más de 7 años de experiencia liderando equipos y desarrollando enfoques analíticos en sectores como la construcción, la hospitalidad y el calzado. Habilidad para transformar datos en insights accionables, optimizar procesos y mejorar la eficiencia operativa. Experiencia en análisis de tendencias de mercado, automatización de reportes y generación de dashboards interactivos.
+🚀 Soy Analista de Datos con experiencia en Marketing y Gestión de Proyectos, enfocada en generar valor a través del análisis estratégico.
+Con más de 7 años liderando equipos y desarrollando soluciones analíticas en sectores como construcción, hospitalidad y retail, mi enfoque está en traducir datos en decisiones comerciales efectivas. 🧠💼
+
+🔍 Me especializo en:
+- Visualización de datos y creación de dashboards interactivos para un monitoreo ágil de KPIs.
+- Optimización de procesos mediante automatización y análisis de eficiencia operativa.
+- Identificación de tendencias de mercado para impulsar estrategias de negocio orientadas a resultados.
+
+📊 Desde la exploración hasta la presentación de insights, mi objetivo es transformar datos en oportunidades de crecimiento.
+¿Buscas a alguien que combine pensamiento analítico con visión comercial? Estás en el lugar indicado. ¡Explora mis proyectos y descubramos cómo podemos crear impacto juntos!
+
 
 ### 📚 Estudios
 
-Realicé un Bootcamp en Análisis de Datos en Tripleten LATAM donde desarrollé proyectos prácticos utilizando herramientas como SQL, Python, Microsoft Excel y Tableau para la manipulación, limpieza, visualización e interpretación de datos, algunos de los cuales podrás encontrar más adelante. Esta formación complementa mi experiencia laboral, permitiéndome tomar decisiones basadas en datos, identificar oportunidades de mejora y optimizar la asignación de recursos en cada proyecto.
+Cuento con una Licenciatura en Administración de Empresas por la Escuela Bancaria Comercial, donde adquirí conocimientos clave en gestión empresarial, finanzas, liderazgo y planeación estratégica. Esta formación me brindó una visión integral de los negocios y la toma de decisiones efectivas.
 
-Cuento con una Licenciatura en Administración de Empresas y actualmente, curso un Diplomado en Marketing y Turismo en ISS Language & Career College of BC en Vancouver, Canadá, con el objetivo de seguir ampliando mis conocimientos en estrategias de negocio y análisis de mercado. 
+Para complementar mi perfil con un enfoque internacional y orientado al cliente, cursé un Diplomado en Marketing y Turismo en ISS Language & Career College of BC, en Vancouver, Canadá, fortaleciendo mis habilidades en marketing digital, análisis de mercado y comunicación intercultural.
+
+Al finalizar el diplomado, me propuse fortalecer mis habilidades técnicas como analista. Por ello, realicé un Bootcamp en Análisis de Datos en TripleTen LATAM, donde desarrollé proyectos prácticos utilizando herramientas como Python, SQL, Excel y Tableau para la limpieza, manipulación, visualización e interpretación de datos.
+Algunos de estos proyectos están disponibles más adelante en este portafolio.
+
+Esta combinación de conocimientos en negocios, marketing y análisis de datos me permite ofrecer una visión 360° en cada proyecto, tomar decisiones informadas basadas en datos, identificar áreas de mejora y optimizar procesos y recursos de forma estratégica.
+
 
 
 ### 🛠️ Habilidades
